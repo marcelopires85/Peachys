@@ -8,6 +8,10 @@ section img {
   width: 100%;
 }
 
+.sutia img {
+  max-width: 20px;
+}
+
 .menu {
   display: grid;
   grid-template-columns: 1fr 1fr;
