@@ -6,10 +6,25 @@ a {
 
 section img {
   width: 100%;
+  border-radius: 4px;
 }
 
 .sutia img {
-  max-width: 20px;
+  width: 400px;
+  max-width: 100%;
+}
+
+.sutia li {
+  padding: 20px;
+  text-decoration: none;
+  color: #f9c4a2;
+  font-size: 20px;
+}
+
+.mosaico img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .menu {
