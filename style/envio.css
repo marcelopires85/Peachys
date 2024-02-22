@@ -4,13 +4,6 @@ a {
   padding: 20px;
 }
 
-section img {
-  max-width: 100%;
-  width: 1080px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .menu {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -25,11 +18,24 @@ section img {
   font-size: 30px;
 }
 
+.body-bg {
+  background-color: #fef2ea;
+}
+
+section {
+  margin: 0px;
+}
+
+.envio h2,
+p {
+  color: #f8c5c1;
+  font-size: 20px;
+}
+
 footer p {
-  display: inline;
-  width: auto;
-  height: auto;
+  display: flex;
+  font-size: 30px;
   flex-wrap: wrap;
-  align-content: center;
+  justify-content: center;
   color: #f9c4a2;
 }
