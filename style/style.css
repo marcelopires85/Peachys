@@ -55,6 +55,7 @@ button {
   padding: 0;
   margin: -15px 0 0 -30px; /* margem à esquerda e ao topo metade da medida do botão */
   border: 0 none;
+  cursor: pointer;
 }
 
 footer p {
