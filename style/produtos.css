@@ -64,6 +64,10 @@ section img {
   font-size: 20px;
 }
 
+.sutia img:nth-child(odd) {
+  background-color: #f9c4a2;
+}
+
 .sutia li::first-letter {
   font-size: 30px;
   color: #f8c5c1;
