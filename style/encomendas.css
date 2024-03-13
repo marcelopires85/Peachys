@@ -44,10 +44,27 @@
   font-size: 30px;
 }
 
+.form-produtos fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  border-radius: 4px;
+}
+
 .formulario input {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
+  padding: 8px 80px;
+  border-radius: 4px;
+  color: #f9c4a2;
 }
+/* investigar o uso //
+.formulario submit { 
+  display: flex;
+  flex-wrap: wrap;
+  width: 20px; 
+} */
 
 footer p {
   display: flex;

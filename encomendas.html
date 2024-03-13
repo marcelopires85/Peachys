@@ -11,7 +11,7 @@
 <body>
     <div class="body-bg">
         <div class="menu-foto">
-            <a href="./index.html"><img src="./img/fotos/artboard1.png" alt="Logo"></a>
+            <a href="./index.html"><img src="./img/fotos/artboard2.png" alt="Logo"></a>
         </div>
         <div class="menu-links">
             <a href="./produtos.html">Produtos</a>
@@ -27,9 +27,46 @@
             <h1>Dados do Pedido</h1>
             <p>Assim que submeter os dados responderemos o mais rápido possível o seu pedido. Fique de olho em sua caixa de e-mail.</p>
         </div>
+        <div class="form-produtos">
+            <fieldset>
+                <legend>Escolha seus produtos</legend>
+                <div>
+                    <input type="checkbox" id="scales" name="scales" checked />
+                    <label for="scales">Produto 1</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="horns" name="horns" />
+                    <label for="horns">Produto 2</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="horns" name="horns" />
+                    <label for="horns">Produto 3</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="horns" name="horns" />
+                    <label for="horns">Produto 4</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="horns" name="horns" />
+                    <label for="horns">Produto 5</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="horns" name="horns" />
+                    <label for="horns">Produto 6</label>
+                </div>
+            </fieldset>
+        </div>
         <div class="formulario">
-            <input type="text">Nome
-            <input type="email">E-mail
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required minlength="3" maxlength="50" size="30" />
+            <label for="email">E-mail</label>
+            <input type="email" id="email" pattern=".+@example\.com" size="30" required />
+            <label for="phone">
+                Telefone/Whatsapp<br />
+                <small>Formato: (00) 9 1234-5678 </small>
+            </label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+            <input type="submit" value="Fazer Pedido" />
         </div>
     </section>
 
