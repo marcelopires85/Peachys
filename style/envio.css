@@ -48,8 +48,11 @@
 }
 
 .envio p {
+  display: flex;
+  flex-wrap: wrap;
   color: #f8c5c1;
   font-size: 30px;
+  padding: 80px 80px;
 }
 
 .envio img {
