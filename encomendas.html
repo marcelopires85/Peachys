@@ -86,9 +86,16 @@
                 <small>Formato: (00) 9 1234-5678 </small>
             </label>
             <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
-            <div class="botaopedido">
-                <input type="submit" value="Fazer Pedido" />
-            </div>
+            <label for="name">Endereço</label>
+            <input type="text" id="name" name="name" required minlength="15" maxlength="50" size="30" />
+            <label for="CEP">CEP:
+                <input name="CEP" id="CEP" required pattern="\d{5}-\d{3}" required minlength="9" maxlength="9" size="12" />
+
+        </div>
+        <div class="pedido">
+            <button>
+                Fazer Pedido
+            </button>
         </div>
     </section>
 

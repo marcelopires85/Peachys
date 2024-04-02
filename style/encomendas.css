@@ -71,7 +71,10 @@
   width: 500px;
 }
 
-.botaopedido input {
+.pedido button {
+  color: #f9c4a2;
+  text-transform: uppercase;
+  border-radius: 4px;
   gap: 20px;
   margin-top: 20px;
   padding: 8px 40px;
@@ -86,10 +89,13 @@ footer p {
   margin-top: 180px;
 }
 
-@media (max-width: 800px) {
-  .menu-foto {
+@media (max-width: 900px) {
+  .menu-links {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    float: none;
+    text-align: center;
+    font-size: 25px;
   }
 }
 
@@ -119,10 +125,6 @@ footer p {
   .form-produtos input labels {
     width: 15px;
     height: 15px;
-  }
-
-  .botao-catalogo img {
-    width: 100%;
   }
 
   footer p {
