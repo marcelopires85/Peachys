@@ -80,6 +80,11 @@
   padding: 8px 40px;
 }
 
+.pedido button:hover {
+  background-color: #f9c4a2;
+  color: #fef2ea;
+}
+
 footer p {
   display: flex;
   font-size: 30px;

@@ -74,6 +74,11 @@ button {
   cursor: pointer;
 }
 
+.botao-catalogo button:hover {
+  color: #fef2ea;
+  background-color: #f9c4a2;
+}
+
 footer p {
   display: flex;
   font-size: 30px;

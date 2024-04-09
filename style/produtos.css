@@ -87,16 +87,6 @@ span {
   padding-left: 700px;
 }
 
-button {
-  display: flex;
-  position: absolute;
-  left: 1165px;
-  color: #f8c5c1;
-  font-size: 18px;
-  border-color: #f9c4a2;
-  cursor: pointer;
-}
-
 footer p {
   display: flex;
   font-size: 30px;
@@ -105,10 +95,20 @@ footer p {
   color: #f9c4a2;
 }
 
+@media (max-width: 1300px) {
+  .mosaico span {
+    display: flex;
+  }
+}
+
 @media (max-width: 800px) {
   .menu-foto {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .sutia li span {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -125,6 +125,13 @@ footer p {
   }
   .botao-catalogo img {
     width: 100%;
+  }
+
+  .sutia span {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px;
+    font-size: 22px;
   }
   footer p {
     font-size: 18px;
