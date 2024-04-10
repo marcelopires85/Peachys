@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 .body-bg {
   display: grid;
   grid-template-columns: 1fr 1fr;

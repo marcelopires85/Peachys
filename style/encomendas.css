@@ -1,3 +1,10 @@
+body {
+  margin: 0px;
+}
+
+section {
+  margin: 10px;
+}
 .body-bg {
   display: grid;
   grid-template-columns: 1fr 1fr;
