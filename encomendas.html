@@ -28,59 +28,61 @@
             <p>Assim que submeter os dados, responderemos o mais rápido possível o seu pedido. Fique de olho em sua caixa de e-mail.</p>
         </div>
         <div class="form-produtos">
-            <fieldset>
-                <legend>Escolha seus produtos</legend>
-                <div>
-                    <input type="checkbox" id="bra1" name="bra1" />
-                    <label for="bra1">Bralette Floral</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="bra2" name="bra2" />
-                    <label for="bra2">Sutiã Floral</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="bra3" name="bra3" />
-                    <label for="bra3">Bralette Vermelho</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="bra4" name="bra4" />
-                    <label for="bra4">Bralette Verde</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="bra5" name="bra5" />
-                    <label for="bra5">Bralette Vinho</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="bra6" name="bra6" />
-                    <label for="bra6">Bralette Rosa</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="top1" name="top1" />
-                    <label for="top1">Top Rosa</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="bra7" name="bra7" />
-                    <label for="bra7">Sutiã Preto</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="hot1" name="hot1" />
-                    <label for="hot1">Hotpaint Baixo</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="hot2" name="hot2" />
-                    <label for="hot2">Hotpaint Alto</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="cal1" name="cal1" />
-                    <label for="cal1">Caleçon</label>
-                </div>
-            </fieldset>
+            <form class="form" action="./enviar.php" method="post">
+                <fieldset>
+                    <legend>Escolha seus produtos</legend>
+                    <div>
+                        <input type="checkbox" id="bra1" name="bra1" />
+                        <label for="bra1">Bralette Floral</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bra2" name="bra2" />
+                        <label for="bra2">Sutiã Floral</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bra3" name="bra3" />
+                        <label for="bra3">Bralette Vermelho</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bra4" name="bra4" />
+                        <label for="bra4">Bralette Verde</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bra5" name="bra5" />
+                        <label for="bra5">Bralette Vinho</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bra6" name="bra6" />
+                        <label for="bra6">Bralette Rosa</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="top1" name="top1" />
+                        <label for="top1">Top Rosa</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bra7" name="bra7" />
+                        <label for="bra7">Sutiã Preto</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="hot1" name="hot1" />
+                        <label for="hot1">Hotpaint Baixo</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="hot2" name="hot2" />
+                        <label for="hot2">Hotpaint Alto</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cal1" name="cal1" />
+                        <label for="cal1">Caleçon</label>
+                    </div>
+                </fieldset>
+            </form>
         </div>
         <div class="formulario">
             <label for="name">Nome</label>
             <input type="text" id="name" name="name" required minlength="3" maxlength="50" size="30" autocomplete="on" />
             <label for="email">E-mail</label>
-            <input type="email" id="email" pattern=".+@example\.com" size="30" required autocomplete="on" />
+            <input type="email" id="email" name="email" pattern=".+@example\.com" size="30" required autocomplete="on" />
             <label for="phone">
                 Telefone/Whatsapp<br />
                 <small>Formato: (00) 9 1234-5678 </small>
@@ -89,9 +91,10 @@
             <label for="name">Endereço</label>
             <input type="text" id="logra" name="CEP" required minlength="15" maxlength="50" size="30" autocomplete="on" />
             <label for="CEP">CEP:
-                <input name="CEP" id="CEP" required pattern="\d{5}-\d{3}" required minlength="9" maxlength="9" size="12" autocomplete="on" />
+                <input name="CEP" id="CEP" name="CEP" required pattern="\d{5}-\d{3}" required minlength="9" maxlength="9" size="12" autocomplete="on" />
 
         </div>
+        </form>
         <div class="pedido">
             <button>
                 Fazer Pedido
