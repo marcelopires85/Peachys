@@ -1,109 +1,110 @@
-<<!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Peach Panties | Fazer Pedido</title>
-        <link rel="stylesheet" href="./style/encomendas.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peach Panties | Fazer Pedido</title>
+    <link rel="stylesheet" href="./style/encomendas.css">
+</head>
 
-    <body>
-        <div class="body-bg">
-            <div class="menu-foto">
-                <a href="./index.html"><img src="./img/fotos/artboard2.png" alt="Logo"></a>
-            </div>
-            <div class="menu-links">
-                <a href="./produtos.html">Produtos</a>
-                <a href="./envio.html">Envio</a>
-                <a href="./pagamentos.html">Pagamentos</a>
-                <a href="./bio.html">Bio</a>
-                <a href="./encomendas.html">Encomendas</a>
-            </div>
+<body>
+    <div class="body-bg">
+        <div class="menu-foto">
+            <a href="./index.html"><img src="./img/fotos/artboard2.png" alt="Logo"></a>
         </div>
+        <div class="menu-links">
+            <a href="./produtos.html">Produtos</a>
+            <a href="./envio.html">Envio</a>
+            <a href="./pagamentos.html">Pagamentos</a>
+            <a href="./bio.html">Bio</a>
+            <a href="./encomendas.html">Encomendas</a>
+        </div>
+    </div>
 
-        <section>
-            <div class="encomendas">
-                <h1>Dados do Pedido</h1>
-                <p>Assim que submeter os dados, responderemos o mais rápido possível o seu pedido. Fique de olho em sua caixa de e-mail.</p>
+    <section>
+        <div class="encomendas">
+            <h1>Dados do Pedido</h1>
+            <p>Assim que submeter os dados, responderemos o mais rápido possível o seu pedido. Fique de olho em sua caixa de e-mail.</p>
+        </div>
+        <form action="./enviar.php" method="post">
+            <div class="form-produtos">
+                <fieldset>
+                    <legend>Escolha seus produtos</legend>
+                    <div>
+                        <input type="checkbox" id="bra1" name="bra1" />
+                        <label for="bra1">Bralette Floral</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bra2" name="bra2" />
+                        <label for="bra2">Sutiã Floral</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bra3" name="bra3" />
+                        <label for="bra3">Bralette Vermelho</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bra4" name="bra4" />
+                        <label for="bra4">Bralette Verde</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bra5" name="bra5" />
+                        <label for="bra5">Bralette Vinho</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bra6" name="bra6" />
+                        <label for="bra6">Bralette Rosa</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="top1" name="top1" />
+                        <label for="top1">Top Rosa</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bra7" name="bra7" />
+                        <label for="bra7">Sutiã Preto</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="hot1" name="hot1" />
+                        <label for="hot1">Hotpaint Baixo</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="hot2" name="hot2" />
+                        <label for="hot2">Hotpaint Alto</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cal1" name="cal1" />
+                        <label for="cal1">Caleçon</label>
+                    </div>
+                </fieldset>
             </div>
-            <form action="./enviar.php" method="post">
-                <div class="form-produtos">
-                    <fieldset>
-                        <legend>Escolha seus produtos</legend>
-                        <div>
-                            <input type="checkbox" id="bra1" name="bra1" />
-                            <label for="bra1">Bralette Floral</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="bra2" name="bra2" />
-                            <label for="bra2">Sutiã Floral</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="bra3" name="bra3" />
-                            <label for="bra3">Bralette Vermelho</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="bra4" name="bra4" />
-                            <label for="bra4">Bralette Verde</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="bra5" name="bra5" />
-                            <label for="bra5">Bralette Vinho</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="bra6" name="bra6" />
-                            <label for="bra6">Bralette Rosa</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="top1" name="top1" />
-                            <label for="top1">Top Rosa</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="bra7" name="bra7" />
-                            <label for="bra7">Sutiã Preto</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="hot1" name="hot1" />
-                            <label for="hot1">Hotpaint Baixo</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="hot2" name="hot2" />
-                            <label for="hot2">Hotpaint Alto</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="cal1" name="cal1" />
-                            <label for="cal1">Caleçon</label>
-                        </div>
-                    </fieldset>
-                </div>
-                <div class="formulario">
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" name="name" required minlength="3" maxlength="50" size="30" autocomplete="on" />
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" size="30" required autocomplete="on" />
-                    <label for="phone">
-                        Telefone/Whatsapp<br />
-                        <small>Formato: (00) 9 1234-5678 </small>
-                    </label>
-                    <input type="tel" id="phone" name="phone" required autocomplete="on" />
-                    <label for="name">Endereço</label>
-                    <input type="text" id="rua" name="rua" required minlength="10" maxlength="50" size="30" autocomplete="on" />
-                    <label for="CEP">CEP:
-                        <input name="CEP" id="CEP" name="CEP" required minlength="8" maxlength="9" size="12" autocomplete="on" />
+            <div class="formulario">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required minlength="3" maxlength="50" size="30" autocomplete="on" />
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" size="30" required autocomplete="on" />
+                <label for="phone">
+                    Telefone/Whatsapp<br />
+                    <small>Formato: (00) 9 1234-5678 </small>
+                </label>
+                <input type="tel" id="phone" name="phone" required autocomplete="on" />
+                <label for="name">Endereço</label>
+                <input type="text" id="rua" name="rua" required minlength="10" maxlength="50" size="30" autocomplete="on" />
+                <label for="CEP">CEP:
+                    <input name="CEP" id="CEP" name="CEP" required minlength="8" maxlength="9" size="12" autocomplete="on" />
 
-                </div>
-                <div class="pedido">
-                    <button>
-                        Fazer Pedido
-                    </button>
-            </form>
             </div>
-        </section>
+            <div class="pedido">
+                <button>
+                    Fazer Pedido
+                </button>
+        </form>
+        </div>
+    </section>
 
-        <footer>
-            <p>- 2024 -</p>
-        </footer>
-    </body>
+    <footer>
+        <p>- 2024 -</p>
+    </footer>
+    <script src="./formulario.js"></script>
+</body>
 
-    </html>
+</html>
